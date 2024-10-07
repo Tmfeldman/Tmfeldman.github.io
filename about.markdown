@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The most frusterating part of software development is spending hours on something which is easy, but poorly documented. In this blog I'll document the solutions I found to poorly documented problems as well as my own personal projects.
+The most frustrating part of software development is spending hours on something which is easy, but poorly documented. In this blog I'll document the solutions I found to poorly documented problems as well as my own personal projects.
 
 You can find some of my minecraft mods here:
 
