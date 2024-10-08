@@ -50,6 +50,17 @@ Add this line to the plugins block at the top of the file `id 'org.spongepowered
 
 Add this line to the dependencies block near the bottom of the file `annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'`
 
+Add this line `'MixinConfigs'            : "mixins.${mod_id}.json"` to the attributes array 
+{% highlight ruby %}
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+				....
+		  ])
+    }
+}
+{% endhighlight %}
+
 Finally, add this block underneath the dependencies block. And click the load Gradel changes icon on the top right. 
 {% highlight ruby %}
 mixin {
